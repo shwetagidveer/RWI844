@@ -20,9 +20,8 @@ public class PalindromeNoEx {
             System.out.println("Palindrome Number");
         } else {
             System.out.println("Not Palindrome");
-        }
+        }      
         
-        // No need to close the Scanner in this simple program
     }
 }
 class PalindromeNoEx{  
