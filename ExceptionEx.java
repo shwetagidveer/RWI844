@@ -1,4 +1,4 @@
-package com.practise;
+//package com.practise;
 
 public class ExceptionEx{
 
@@ -26,3 +26,12 @@ public class ExceptionEx{
 	}
 
 }
+
+  //  Output :- 1
+  // 2
+  // 3
+  // java.lang.ArithmeticException: / by zero at ExceptionEx.main(ExceptionEx.java:11)
+  // 5
+  // c
+  // 6
+  // Railworld
