@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+// Custom exception class
+class InvalidVoterAgeException extends Exception {
+    public InvalidVoterAgeException(String message) {
+        super(message);
+    }
+}
+
 public class VoterThrowThrows {
 
     // Method to check voter eligibility
@@ -24,7 +31,7 @@ public class VoterThrowThrows {
             // Handling the custom exception
             System.out.println("Exception: " + e.getMessage());
         } finally {
-            System.out.println("Program continues...");
+            System.out.println("Thanks!!!...");
         }
 
         scanner.close(); // Closing the scanner
