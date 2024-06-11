@@ -37,3 +37,7 @@ public class VoterThrowThrows {
         scanner.close(); // Closing the scanner
     }
 }
+
+// Output :- Enter your age: 20
+  //	    You are eligible to vote.
+  //	    Thanks!!!...
