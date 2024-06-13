@@ -6,9 +6,9 @@ public class GroupThreadConstructor extends Thread {
 
     public static void main(String[] args) {
         GroupThreadConstructor thread = new GroupThreadConstructor();
-        System.out.println("thread is start or not = " + thread.isAlive());
+        System.out.println("Thread is Start or Not = " + thread.isAlive());
         thread.run(); 
-        System.out.println("after running the thread = " + thread.isAlive());
+        System.out.println("After Running the Thread = " + thread.isAlive());
         
         ThreadGroup tg1 = new ThreadGroup("Parent Thread");
         
@@ -22,3 +22,11 @@ public class GroupThreadConstructor extends Thread {
         tg1.list();
     }
 }
+
+  //  Output :- Thread is Start or Not = false
+  //	true
+  //	After Running the Thread = false
+  // 	true
+  //	true
+  //	Thread Group Name: Parent Thread
+  //	java.lang.ThreadGroup[name=Parent Thread,maxpri=10]
